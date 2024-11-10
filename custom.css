@@ -93,7 +93,27 @@ body.linux div#toolbar button#toolbar-toggle-sidebar.toggle.active {
   color: var(--text-color);
 }
 
+body.linux #file-tree #directories-dirs-header, body.linux #file-tree #directories-files-header {
+    border-bottom: 0px;
+    font-size: 13px;
+    background-color: var(--secondary-color)
+}
+
+body.linux #file-tree #directories-dirs-header cds-icon{
+  margin-right: 4px;
+}
+
 
 body div.tree-item-container .tree-item.selected .display-text {
     border-radius: 4px;
+}
+
+body:not(.darwin).dark ::-webkit-scrollbar-thumb {
+    background-color: #444;
+  border-radius: 15px;
+}
+
+body:not(.darwin) ::-webkit-scrollbar-thumb {
+    background-color: #acacac;
+    border-radius: 15px;
 }
