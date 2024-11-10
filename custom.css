@@ -1,0 +1,99 @@
+:root {
+  --main-editor-color: #181818;
+  --secondary-color: #323232;
+  --accent-color: #e74c3c;
+  --text-color: #d9d9d9;
+  --project-color: #668cff;
+  --system-accent-color: #71428a;
+}
+
+body.linux div#toolbar button {
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+
+span.cm-statusbar-item {
+  border-color: var(--secondary-color) ;
+}
+
+body.linux.dark div.tab-container div[role="tab"] {
+    border-color: #222;
+    background-color: var(--secondary-color) ;
+    border-radius: 5px 5px 0px 0px;
+}
+body.linux.dark div.tab-container div[role="tab"].active {
+    background-color: var(--main-editor-color);
+    border-bottom-color: var(--main-editor-color);
+    z-position: 1;
+}
+
+
+body.linux.dark div.tab-container {
+    background-color: var(--secondary-color);
+}
+
+body.dark .main-editor-wrapper {
+    background-color: var(--main-editor-color);
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+body.dark {
+    color: var(--text-color);
+    background-color: var(--main-editor-color);
+    font-size: 20px;
+}
+
+ͼv .cm-scroller {
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+}
+
+body.linux.dark #file-tree {
+    background-color: var(--main-editor-color);
+    font-size: 15px;
+}
+
+body.dark div.tree-item-container .tree-item.project {
+    color: var(--project-color);
+}
+
+.main-editor-wrapper .cm-content {
+    padding-left: 7rem;
+    padding-right: 10rem;
+}
+
+.ͼv .cm-url, .ͼv .cm-link, .ͼv .cm-code-mark, .ͼv .cm-zkn-tag, .ͼv .cm-zkn-link {
+    color: var(--system-accent-color);
+}
+
+body.linux.dark input, body.linux.dark select, body.linux.dark textarea, body.linux.dark button {
+    background-color: #333;
+    color: var(--text-color);
+}
+
+body div.tab-container {
+    border-bottom: 0px; 
+}
+
+div.system-tablist button.system-tab {
+  border: 0px;
+}
+
+div.system-tablist {
+  background-color: var(--secondary-color);
+}
+
+body.linux div#toolbar button {
+    background-color: transparent;
+}
+
+body.linux div#toolbar button#toolbar-toggle-sidebar.toggle.active {
+  color: var(--text-color);
+}
+
+
+body div.tree-item-container .tree-item.selected .display-text {
+    border-radius: 4px;
+}
