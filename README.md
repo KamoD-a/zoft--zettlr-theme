@@ -1,18 +1,19 @@
 # Dark Mode Theme for Zettlr
 
-[Zettlr][https://www.zettlr.com/] is an opden-source note-taking, organizing and publishing app. 
+[Zettlr](https://www.zettlr.com/) is an open-source note-taking, organizing and publishing app. 
 I made a modern theme for this amazing app.
 Just copy the content in the custom.css file into your app.
 
 !WARNING! At the moment only the dark mode is supported!
 
-![image](https://github.com/user-attachments/assets/16812ce4-abbb-4d70-a0c0-e52f760abaf0
+![image](https://github.com/user-attachments/assets/aa743b54-eda0-4aaf-a9f3-0b2a49dc71fa)
 
 
 
 Go to settings -> appearance -> custom css, paste and save :)
 
-![image](https://github.com/user-attachments/assets/7b0d9783-4046-44db-a7c1-0edb6ae1cd2c)
+![image](https://github.com/user-attachments/assets/97d3ab81-4d30-43e9-bae5-78a5d9bc0003)
+
 
 # Changing the accent color:
 
