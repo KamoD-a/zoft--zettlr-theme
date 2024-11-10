@@ -17,6 +17,7 @@ span.cm-statusbar-item {
   border-color: var(--secondary-color) ;
 }
 
+
 body.linux.dark div.tab-container div[role="tab"] {
     border-color: #222;
     background-color: var(--secondary-color) ;
@@ -68,6 +69,7 @@ body.dark div.tree-item-container .tree-item.project {
     color: var(--system-accent-color);
 }
 
+
 body.linux.dark input, body.linux.dark select, body.linux.dark textarea, body.linux.dark button {
     background-color: #333;
     color: var(--text-color);
@@ -103,10 +105,11 @@ body.linux #file-tree #directories-dirs-header cds-icon{
   margin-right: 4px;
 }
 
-
 body div.tree-item-container .tree-item.selected .display-text {
     border-radius: 4px;
 }
+
+
 
 body:not(.darwin).dark ::-webkit-scrollbar-thumb {
     background-color: #444;
@@ -116,4 +119,24 @@ body:not(.darwin).dark ::-webkit-scrollbar-thumb {
 body:not(.darwin) ::-webkit-scrollbar-thumb {
     background-color: #acacac;
     border-radius: 15px;
+}
+
+body.linux.dark div.document-tablist-wrapper div.scroller.right {
+    border-color: 0px solid var(--secondary-color);
+}
+
+body.linux.dark div.document-tablist-wrapper div.scroller.right {
+    border: 0px;
+    background-color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+body.linux.dark div.document-tablist-wrapper div.scroller.left {
+    border: 0px;
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+body.linux div.tab-container div[role="tab"]:not(:last-child) {
+    border-right: 0px;
 }
