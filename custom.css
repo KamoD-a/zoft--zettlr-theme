@@ -4,7 +4,7 @@
   --accent-color: #e74c3c;
   --text-color: #d9d9d9;
   --project-color: #668cff;
-  --system-accent-color: #71428a;
+  --system-accent-color: darkolivegreen;
 }
 
 body.linux div#toolbar button {
